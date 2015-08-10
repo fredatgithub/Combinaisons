@@ -1,8 +1,8 @@
 language: csharp
 solution: Combinaisons.sln
 
-script:
-  - xbuild /p:Configuration=Release Combinaisons/Combinaisons.csproj
+#script:
+#  - xbuild /p:Configuration=Release Combinaisons/Combinaisons.csproj
 
 notifications:
   email: false
